@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <React.Fragment>
         <Container fixed>
-          <CenteredGrid/>
+          
         </Container>
     </React.Fragment>
   );
