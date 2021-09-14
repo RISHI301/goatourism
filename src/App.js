@@ -20,12 +20,12 @@ function App() {
       
       {/* Router - Pages */}
           <Switch>
-            <Route path={process.env.PUBLIC_URL + '/'} exact > <Home/> </Route>
+            {/*<Route path={process.env.PUBLIC_URL + '/'} exact > <Home/> </Route>
             <Route path={process.env.PUBLIC_URL + '/home'} > <Home/> </Route>
             <Route path={process.env.PUBLIC_URL + '/hotel'} > <Hotel/> </Route>
-            <Route path={process.env.PUBLIC_URL + '/gallery'}  > <Gallery/> </Route>
-            <Route path={process.env.PUBLIC_URL + '/goahomepage'}  > <Goahomepage/> </Route>
-            <Route path={process.env.PUBLIC_URL + '/covidguide'}  > <Covidguide/> </Route>
+  <Route path={process.env.PUBLIC_URL + '/gallery'}  > <Gallery/> </Route> */}
+            <Route path={process.env.PUBLIC_URL + '/goahomepage'}  > <Goahomepage/> </Route> // Homepage of our website
+            <Route path={process.env.PUBLIC_URL + '/covidguide'}  > <Covidguide/> </Route> // Second page of the task
           </Switch>
     </div>
   );
