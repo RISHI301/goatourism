@@ -1,11 +1,6 @@
 import './App.css';
-import ButtonAppBar from './Components/AppBar.js'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './Pages/Home.js'
-import Gallery from './Pages/Gallery.js'
-import PrimarySearchAppBar from './Components/AppBarSearch';
-import Hotel from './Pages/Hotel';
-import SimpleCard from './Components/HomeMultiCard';
+import SearchAppBar from './Components/AppBarSearch';
 import Goahomepage from './Pages/goahomepage';
 import Covidguide from './Pages/covidguide';
 
@@ -15,7 +10,7 @@ function App() {
     <div className="App">
       {/* Header (Navigation Bar) */}
       <header className="App-header">
-      <PrimarySearchAppBar/>
+      <SearchAppBar/>
       </header>
       
       {/* Router - Pages */}

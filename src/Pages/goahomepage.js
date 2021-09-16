@@ -5,6 +5,7 @@ import TextMobileStepper from '../Components/Goahomepage/Stepper2';
 import OutlinedButtons6 from '../Components/Goahomepage/Button6';
 import OutlinedButtons7 from '../Components/Goahomepage/Button7';
 import OutlinedButtons8 from '../Components/Goahomepage/Button8';
+import goadepartment from '../Assets/goadepartment.jpg'
 
 export default function Goahomepage() {
   return (
@@ -20,7 +21,7 @@ export default function Goahomepage() {
           <p>
             Welcome to Goa Tourism Department
             </p>
-
+          <img src = {goadepartment} className= "Goa-Tourism-Department" alt= "Goa-Tourism-Department"/>
           <p>
           The Administrative head of the Department is Shri J. Ashok Kumar, IAS, Secretary Tourism. The Department has a zonal office in North Goa at Headquarters, Panaji and in South Goa at Margao.
           The Current Director of Tourism is Shri Menino D’souza.
