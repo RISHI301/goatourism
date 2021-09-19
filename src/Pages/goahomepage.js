@@ -6,11 +6,15 @@ import OutlinedButtons6 from '../Components/Goahomepage/Button6';
 import OutlinedButtons7 from '../Components/Goahomepage/Button7';
 import OutlinedButtons8 from '../Components/Goahomepage/Button8';
 import goadepartment from '../Assets/goadepartment.jpg'
+import video from '../Assets/video.jpg'
+import govtgoalogo from '../Assets/govtgoalogo.png'
+import ButtonLink1 from '../Components/Goahomepage/LinkButton1';
 
 export default function Goahomepage() {
   return (
     <React.Fragment>
         <Container fixed>
+        <img src = {govtgoalogo} className= "Government of Goa" alt= "Government of Goa"/>
           <p>
             Department of Tourism Goa
             </p>
@@ -28,6 +32,7 @@ export default function Goahomepage() {
           The Public Grievances Officer is Dy. Director (Administration).
           The Tourist Information Centres/Counters are located within the State and in Mumbai (temporarily closed). The Zonal Officers are primarily responsible for monitoring the Registration of Tourist Trade under the Tourist Trade Act, 1982.
           </p>
+          <ButtonLink1/>
           <p>
             Travel Essentials
             </p>
@@ -38,42 +43,8 @@ export default function Goahomepage() {
           <p>
             A Glimpse into the Beauty of Goa
             </p>
-            <p>
-              Policies
-            </p>
-            <p>
-              Terms and Conditions
-            </p>
-            <p>
-              Disclaimer
-            </p>
-            <p>
-              Privacy Policies
-            </p>
-            <p>
-              Hyperlinking Policies
-            </p>
-            <p>
-              Help
-            </p>
-            <p>
-              Contact Us
-            </p>
-            <p>
-              Goa Tourism Department
-            </p>
-            <p>
-              Paryatan Bhavan, 2nd Floor, Patto
-            </p>
-            <p>
-              Panaji-Goa, India 403001
-            </p>
-            <p>
-              Call Us: +91-0832-2494204
-            </p>
-            <p>
-            Email : Dir-tour.goa@nic.in             
-            </p>
+            <img src = {video} className= "Glimpse of Goa" alt= "Glimpse into the Beauty of Goa"/>
+            
         </Container>
     </React.Fragment>
   );

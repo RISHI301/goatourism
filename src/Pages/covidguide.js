@@ -2,11 +2,11 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import PrimarySearchAppBar from '../Components/AppBarSearch';
 import MaterialUIPickers from '../Components/Datepicker1';
-import OutlinedButtons1 from '../Components/Goahomepage/Button1';
-import OutlinedButtons2 from '../Components/Goahomepage/Button2';
-import OutlinedButtons3 from '../Components/Goahomepage/Button3';
-import OutlinedButtons4 from '../Components/Goahomepage/Button4';
-import OutlinedButtons5 from '../Components/Goahomepage/Button5';
+import OutlinedButtons1 from '../Components/Goahomepage/Circular1';
+import OutlinedButtons2 from '../Components/Goahomepage/Circular2';
+import OutlinedButtons3 from '../Components/Goahomepage/Circular3';
+import OutlinedButtons4 from '../Components/Goahomepage/Circular4';
+import OutlinedButtons5 from '../Components/Goahomepage/Circular5';
 
 export default function Covidguide() {
   return (

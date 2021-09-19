@@ -7,6 +7,7 @@ import InputBase from '@material-ui/core/InputBase';
 import { alpha, makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
+import HomeIcon from '@material-ui/icons/Home';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -78,6 +79,7 @@ export default function SearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
+          <HomeIcon/>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
