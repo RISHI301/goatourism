@@ -1,8 +1,4 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/Toolbar';
-import {Link, Router} from "react-router-dom";
 import TextButtons5 from './Terms&Conditions';
 import TextButtons6 from './Disclaimer';
 import TextButtons7 from './PrivacyPolicies';

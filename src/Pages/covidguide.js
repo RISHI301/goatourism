@@ -1,7 +1,5 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-import PrimarySearchAppBar from '../Components/AppBarSearch';
-import MaterialUIPickers from '../Components/Datepicker1';
 import OutlinedButtons1 from '../Components/Goahomepage/Circular1';
 import OutlinedButtons2 from '../Components/Goahomepage/Circular2';
 import OutlinedButtons3 from '../Components/Goahomepage/Circular3';
