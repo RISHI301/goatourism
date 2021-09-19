@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/goatourism/static/css/main.915667ca.chunk.css",
-    "main.js": "/goatourism/static/js/main.36f2bc2a.chunk.js",
-    "main.js.map": "/goatourism/static/js/main.36f2bc2a.chunk.js.map",
+    "main.js": "/goatourism/static/js/main.f0f30119.chunk.js",
+    "main.js.map": "/goatourism/static/js/main.f0f30119.chunk.js.map",
     "runtime-main.js": "/goatourism/static/js/runtime-main.03f86f45.js",
     "runtime-main.js.map": "/goatourism/static/js/runtime-main.03f86f45.js.map",
-    "static/js/2.5b743238.chunk.js": "/goatourism/static/js/2.5b743238.chunk.js",
-    "static/js/2.5b743238.chunk.js.map": "/goatourism/static/js/2.5b743238.chunk.js.map",
+    "static/js/2.0d13c217.chunk.js": "/goatourism/static/js/2.0d13c217.chunk.js",
+    "static/js/2.0d13c217.chunk.js.map": "/goatourism/static/js/2.0d13c217.chunk.js.map",
     "index.html": "/goatourism/index.html",
     "static/css/main.915667ca.chunk.css.map": "/goatourism/static/css/main.915667ca.chunk.css.map",
-    "static/js/2.5b743238.chunk.js.LICENSE.txt": "/goatourism/static/js/2.5b743238.chunk.js.LICENSE.txt",
+    "static/js/2.0d13c217.chunk.js.LICENSE.txt": "/goatourism/static/js/2.0d13c217.chunk.js.LICENSE.txt",
     "static/media/goadepartment.83bbed92.jpg": "/goatourism/static/media/goadepartment.83bbed92.jpg",
     "static/media/govtgoalogo.afa380c9.png": "/goatourism/static/media/govtgoalogo.afa380c9.png",
     "static/media/video.897ef5a4.jpg": "/goatourism/static/media/video.897ef5a4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.03f86f45.js",
-    "static/js/2.5b743238.chunk.js",
+    "static/js/2.0d13c217.chunk.js",
     "static/css/main.915667ca.chunk.css",
-    "static/js/main.36f2bc2a.chunk.js"
+    "static/js/main.f0f30119.chunk.js"
   ]
 }
