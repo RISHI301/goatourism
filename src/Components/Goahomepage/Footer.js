@@ -10,7 +10,8 @@ import ContainedButtons1 from './YoutubeIcon';
 import ContainedButtons2 from './TwitterIcon';
 import ContainedButtons3 from './FacebookIcon';
 import ContainedButtons4 from './InstaIcon';
-
+import { Grid } from '@material-ui/core';
+import Paper from '@material-ui/core/Paper';
 
 export default function AppFooter() {
   return (
@@ -18,39 +19,50 @@ export default function AppFooter() {
         
       <footer className="App-footer">
         <div className="flexbox-container">
-        <p>
+        <Paper elevation={0}>
               Policies
-            </p>
+            </Paper>
             <TextButtons5/>
             <TextButtons6/>
             <TextButtons7/>
             <TextButtons8/>
             <TextButtons9/>
-            <p>
+            <Paper elevation={0}>
               Contact Us
-            </p>
-            <p>
+              </Paper>
+              <Paper elevation={0}>
               Goa Tourism Department
-            </p>
-            <p>
+              </Paper>
+              <Paper elevation={0}>
               Paryatan Bhavan, 2nd Floor, Patto
-            </p>
-            <p>
+              </Paper>
+              <Paper elevation={0}>
               Panaji-Goa, India 403001
-            </p>
+              </Paper>
+            
             <p>
             <ButtonLink5/>
             </p>
             <p>
             <ButtonLink6/>
             </p>
+            <Grid container spacing={1}>
+            <Grid item xl= {3} xs={3}>
             <ContainedButtons1/>
+            </Grid>
+            <Grid item xl= {3} xs={3}>
             <ContainedButtons2/>
+            </Grid>
+            <Grid item xl= {3} xs={3}>
             <ContainedButtons3/>
+            </Grid>
+            <Grid item xl= {3} xs={3}>
             <ContainedButtons4/>
-            <p>
+            </Grid>
+            </Grid>
+            <Paper elevation={0}>
             Copyright © 2021. All Rights Reserved.This is the official website of Goa Tourism Department, Govt of Goa.
-            </p>
+            </Paper>
          
 
         </div>

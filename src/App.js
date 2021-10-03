@@ -8,6 +8,7 @@ import TextButtons4 from './Components/Goahomepage/ContactUs';
 import AppFooter from './Components/Goahomepage/Footer';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -20,8 +21,8 @@ function App() {
       
       {/* Router - Pages */}
           <Switch>
-            {/*<Route path={process.env.PUBLIC_URL + '/'} exact > <Home/> </Route>
-            <Route path={process.env.PUBLIC_URL + '/home'} > <Home/> </Route>
+            <Route path={process.env.PUBLIC_URL + '/'} exact > <Goahomepage/> </Route>
+            {/*<Route path={process.env.PUBLIC_URL + '/home'} > <Home/> </Route>
             <Route path={process.env.PUBLIC_URL + '/hotel'} > <Hotel/> </Route>
   <Route path={process.env.PUBLIC_URL + '/gallery'}  > <Gallery/> </Route> */}
             <Route path={process.env.PUBLIC_URL + '/goahomepage'}  > <Goahomepage/> </Route> // Homepage of our website

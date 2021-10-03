@@ -8,10 +8,13 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import EnglishLink from './LangButton1';
 import HindiLink from './LangButton2';
 import KonkaniLink from './LangButton3';
+import { Box } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
+    width: '40%',
+    position: 'relative',
+    left: '60%',
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -24,6 +27,7 @@ export default function SimpleAccordion() {
 
   return (
     <div className={classes.root}>
+      <Box component="span" m={1}>
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -42,6 +46,7 @@ export default function SimpleAccordion() {
           <KonkaniLink/>
         </AccordionDetails>
       </Accordion>
+      </Box>
     </div>
   );
 }

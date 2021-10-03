@@ -4,6 +4,7 @@ import TreeView from '@material-ui/lab/TreeView';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import TreeItem from '@material-ui/lab/TreeItem';
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles({
   root: {
@@ -67,7 +68,9 @@ export default function MultiSelectTreeView() {
       </TreeItem>
       <TreeItem nodeId="37" label="Covid Guide">
           <TreeItem nodeId="38" label="Safety Guides"/>
+          <Link to={process.env.PUBLIC_URL+'/covidguide'}>
           <TreeItem nodeId="39" label="Ofiicial Govt. Circulars"/>
+          </Link>
       </TreeItem>
       <TreeItem nodeId="40" label="Contact Us"/>
     </TreeView>
