@@ -1,12 +1,14 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
-import MultiSelectTreeView from './treeview';
-import Hamburger from './../../Assets/Hamburger.svg';
+import MenuItem from '@material-ui/core/MenuItem';
+import { makeStyles } from '@material-ui/styles';
+import EnglishLink from './LangButton1';
+import HindiLink from './LangButton2';
+import KonkaniLink from './LangButton3';
 
-export default function SimpleMenu() {
+export default function SimpleMenu01() {
   const [anchorEl, setAnchorEl] = React.useState(null);
-
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -18,7 +20,7 @@ export default function SimpleMenu() {
   return (
     <div>
       <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-      <img src={Hamburger} className="Menu" alt="Menu"/>
+        Languages
       </Button>
       <Menu
         id="simple-menu"
@@ -27,7 +29,9 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MultiSelectTreeView />
+        <MenuItem onClick={handleClose}><EnglishLink/></MenuItem>
+        <MenuItem onClick={handleClose}><HindiLink/></MenuItem>
+        <MenuItem onClick={handleClose}><KonkaniLink/></MenuItem>
       </Menu>
     </div>
   );

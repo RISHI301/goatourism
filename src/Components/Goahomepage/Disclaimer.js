@@ -6,6 +6,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
       margin: theme.spacing(1),
+      color: 'black',
     },
   },
 }));
@@ -15,7 +16,7 @@ export default function TextButtons6() {
 
   return (
     <div className={classes.root}>
-      <Button color="primary">Disclaimer</Button>
+      <Button>Disclaimer</Button>
     </div>
   );
 }

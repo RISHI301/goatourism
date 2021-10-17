@@ -6,6 +6,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
       margin: theme.spacing(1),
+      color: 'black'
     },
   },
 }));
@@ -15,7 +16,7 @@ export default function TextButtons8() {
 
   return (
     <div className={classes.root}>
-      <Button color="primary">Hyperlinking Policies</Button>
+      <Button>Hyperlinking Policies</Button>
     </div>
   );
 }

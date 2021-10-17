@@ -33,6 +33,14 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 400,
     flexGrow: 1,
+    
+  },
+  Swipe:{
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  stepper:{
+    backgroundColor: 'white',
   },
   header: {
     display: 'flex',
@@ -40,14 +48,21 @@ const useStyles = makeStyles((theme) => ({
     height: 0,
     paddingLeft: theme.spacing(4),
     backgroundColor: theme.palette.background.default,
+    justifyContent: 'center',
+    margin: 10,
   },
   img: {
-    height: '100%',
+    height: '50%',
     display: 'block',
     maxWidth: 400,
+    alignItems: 'center',
     overflow: 'hidden',
-    width: '100%',
+    width: '50%',
+    justifyContent: 'center',
   },
+  button: {
+    color: '#562085',
+  }
 }));
 
 function SwipeableTextMobileStepper() {
@@ -80,28 +95,28 @@ function SwipeableTextMobileStepper() {
         enableMouseEvents
       >
         {tutorialSteps.map((step, index) => (
-          <div key={step.label}>
+          <div key={step.label} className={classes.Swipe}>
             {Math.abs(activeStep - index) <= 2 ? (
               <img className={classes.img} src={step.imgPath} alt={step.label} />
             ) : null}
           </div>
         ))}
       </AutoPlaySwipeableViews>
-      <MobileStepper
+      <MobileStepper className={classes.stepper}
         steps={maxSteps}
         position="static"
         variant="dots"
         activeStep={activeStep}
         nextButton={
-          <Button size="small" onClick={handleNext} disabled={activeStep === maxSteps - 1}>
-            Next
+          <Button size="small" onClick={handleNext} disabled={activeStep === maxSteps - 1} className={classes.button}>
+            
             {theme.direction === 'rtl' ? <KeyboardArrowLeft /> : <KeyboardArrowRight />}
           </Button>
         }
         backButton={
-          <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
+          <Button size="small" onClick={handleBack} disabled={activeStep === 0} className={classes.button}>
             {theme.direction === 'rtl' ? <KeyboardArrowRight /> : <KeyboardArrowLeft />}
-            Back
+            
           </Button>
         }
       />
