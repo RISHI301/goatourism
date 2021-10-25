@@ -9,10 +9,11 @@
 .App-header {
   background-color: #ECECEC;
   color: white;
+  padding: 1px;
 }
 
 .App-footer {
-  background-color: #999999;
+  background-color: #ECECEC;
   color: white;
   position: relative;
   left: 0;

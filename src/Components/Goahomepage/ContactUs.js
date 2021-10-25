@@ -4,9 +4,11 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    display: 'flex',
+    justifyContent: 'right',
+    marginRight: 10,
     '& > *': {
-      margin: theme.spacing(1),
-      color: 'black',
+      color: '#562085',
     },
   },
 }));

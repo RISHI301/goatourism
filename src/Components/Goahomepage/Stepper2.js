@@ -33,13 +33,12 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 400,
     flexGrow: 1,
-    
   },
-  Swipe:{
+  Swipe: {
     display: 'flex',
     justifyContent: 'center',
   },
-  stepper:{
+  stepper: {
     backgroundColor: 'white',
   },
   header: {
@@ -109,14 +108,14 @@ function SwipeableTextMobileStepper() {
         activeStep={activeStep}
         nextButton={
           <Button size="small" onClick={handleNext} disabled={activeStep === maxSteps - 1} className={classes.button}>
-            
+
             {theme.direction === 'rtl' ? <KeyboardArrowLeft /> : <KeyboardArrowRight />}
           </Button>
         }
         backButton={
           <Button size="small" onClick={handleBack} disabled={activeStep === 0} className={classes.button}>
             {theme.direction === 'rtl' ? <KeyboardArrowRight /> : <KeyboardArrowLeft />}
-            
+
           </Button>
         }
       />

@@ -6,7 +6,8 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
       margin: theme.spacing(1),
-      color:'black',
+      color: 'black',
+      textTransform: 'capitalize',
     },
   },
 }));
