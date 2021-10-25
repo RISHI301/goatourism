@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/goatourism/static/css/main.eab07151.chunk.css",
-    "main.js": "/goatourism/static/js/main.572e9718.chunk.js",
-    "main.js.map": "/goatourism/static/js/main.572e9718.chunk.js.map",
+    "main.css": "/goatourism/static/css/main.5f3e669e.chunk.css",
+    "main.js": "/goatourism/static/js/main.d25865ff.chunk.js",
+    "main.js.map": "/goatourism/static/js/main.d25865ff.chunk.js.map",
     "runtime-main.js": "/goatourism/static/js/runtime-main.03f86f45.js",
     "runtime-main.js.map": "/goatourism/static/js/runtime-main.03f86f45.js.map",
-    "static/js/2.98b91329.chunk.js": "/goatourism/static/js/2.98b91329.chunk.js",
-    "static/js/2.98b91329.chunk.js.map": "/goatourism/static/js/2.98b91329.chunk.js.map",
+    "static/js/2.52cd719c.chunk.js": "/goatourism/static/js/2.52cd719c.chunk.js",
+    "static/js/2.52cd719c.chunk.js.map": "/goatourism/static/js/2.52cd719c.chunk.js.map",
     "index.html": "/goatourism/index.html",
-    "static/css/main.eab07151.chunk.css.map": "/goatourism/static/css/main.eab07151.chunk.css.map",
-    "static/js/2.98b91329.chunk.js.LICENSE.txt": "/goatourism/static/js/2.98b91329.chunk.js.LICENSE.txt",
+    "static/css/main.5f3e669e.chunk.css.map": "/goatourism/static/css/main.5f3e669e.chunk.css.map",
+    "static/js/2.52cd719c.chunk.js.LICENSE.txt": "/goatourism/static/js/2.52cd719c.chunk.js.LICENSE.txt",
     "static/media/Download.821f9f16.svg": "/goatourism/static/media/Download.821f9f16.svg",
     "static/media/Facebook.2bf805c4.svg": "/goatourism/static/media/Facebook.2bf805c4.svg",
     "static/media/Goa1.9dbfec9f.jpg": "/goatourism/static/media/Goa1.9dbfec9f.jpg",
@@ -28,12 +28,15 @@
     "static/media/goadepartment.83bbed92.jpg": "/goatourism/static/media/goadepartment.83bbed92.jpg",
     "static/media/goalogo.54ecf58c.png": "/goatourism/static/media/goalogo.54ecf58c.png",
     "static/media/govtgoalogo.afa380c9.png": "/goatourism/static/media/govtgoalogo.afa380c9.png",
+    "static/media/mahatma.2d683249.jpg": "/goatourism/static/media/mahatma.2d683249.jpg",
+    "static/media/ministry.9b93d791.png": "/goatourism/static/media/ministry.9b93d791.png",
+    "static/media/nationalportal.b05bd588.png": "/goatourism/static/media/nationalportal.b05bd588.png",
     "static/media/video.897ef5a4.jpg": "/goatourism/static/media/video.897ef5a4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.03f86f45.js",
-    "static/js/2.98b91329.chunk.js",
-    "static/css/main.eab07151.chunk.css",
-    "static/js/main.572e9718.chunk.js"
+    "static/js/2.52cd719c.chunk.js",
+    "static/css/main.5f3e669e.chunk.css",
+    "static/js/main.d25865ff.chunk.js"
   ]
 }
