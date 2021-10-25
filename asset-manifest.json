@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/goatourism/static/css/main.5f3e669e.chunk.css",
-    "main.js": "/goatourism/static/js/main.d25865ff.chunk.js",
-    "main.js.map": "/goatourism/static/js/main.d25865ff.chunk.js.map",
+    "main.js": "/goatourism/static/js/main.8b3f12bb.chunk.js",
+    "main.js.map": "/goatourism/static/js/main.8b3f12bb.chunk.js.map",
     "runtime-main.js": "/goatourism/static/js/runtime-main.03f86f45.js",
     "runtime-main.js.map": "/goatourism/static/js/runtime-main.03f86f45.js.map",
     "static/js/2.52cd719c.chunk.js": "/goatourism/static/js/2.52cd719c.chunk.js",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.03f86f45.js",
     "static/js/2.52cd719c.chunk.js",
     "static/css/main.5f3e669e.chunk.css",
-    "static/js/main.d25865ff.chunk.js"
+    "static/js/main.8b3f12bb.chunk.js"
   ]
 }
