@@ -12,6 +12,9 @@ const useStyles = makeStyles({
     flexGrow: 1,
     maxWidth: 400,
   },
+  covid: {
+    color: '#F49A14'
+  }
 });
 
 export default function MultiSelectTreeView() {
@@ -69,7 +72,7 @@ export default function MultiSelectTreeView() {
       <TreeItem nodeId="37" label="Covid Guide">
         <TreeItem nodeId="38" label="Safety Guides" />
         <Link to={process.env.PUBLIC_URL + '/covidguide'}>
-          <TreeItem nodeId="39" label="Ofiicial Govt. Circulars" />
+          <TreeItem className={classes.covid} nodeId="39" label="Official Govt. Circulars" />
         </Link>
       </TreeItem>
       <TreeItem nodeId="40" label="Contact Us" />

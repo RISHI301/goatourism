@@ -17,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
     color: 'grey',
     textTransform: 'capitalize',
   },
+  covid: {
+    color: '#F49A14'
+  }
 }));
 
 export default function SimpleMenuCG() {
@@ -45,7 +48,7 @@ export default function SimpleMenuCG() {
         onClose={handleClose}
       >
         <MenuItem onClick={handleClose}>Safety Guides</MenuItem>
-        <Link to={process.env.PUBLIC_URL + '/covidguide'}>
+        <Link to={process.env.PUBLIC_URL + '/covidguide'} className={classes.covid}>
           <MenuItem onClick={handleClose}>Official Govt. Circulars</MenuItem>
         </Link>
       </Menu>
